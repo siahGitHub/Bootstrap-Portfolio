@@ -1,0 +1,192 @@
+.largeHeader1{
+    float: left;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left:  20%;
+    width: 300px;
+    height: 45px;
+    background-color: rgb(35, 69, 142);
+    color: gold;
+}
+.largeHeader2{
+    float: left;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(35, 69, 142);
+    padding-bottom: 20px;
+    margin-left:  20px;
+    margin-right: 20px;
+}
+/*.navBar{
+    clear: both; 
+    float: right;
+    margin-right: 20%;
+}*/
+/*
+.navBarItem1{
+    float: left;
+    padding-top: 8%;
+    font-size: 15px;
+    display:inline;
+    padding: 5px;
+}
+.navBarItem2{
+    float: left;
+    padding-top: 8%;
+    font-size: 15px;
+    display:inline;
+    padding: 5px;
+}
+.navBarItem3{
+    float: left;
+    padding-top: 8%;
+    font-size: 15px;
+    display:inline;
+    padding: 5px;
+}
+*/
+.main{
+    clear: both;
+    padding-top: 30px;
+    width: 100%;
+    /*width: 960px;*/
+    height: 600px;
+    /*background-color: rgb(169, 170, 172);*/
+    /*background: ("/images/skyscraper.png");*/
+    border-bottom:  25px;
+    border-style: solid;
+    border-bottom-color: #666666;
+}
+.about{
+    padding-top: 20px;
+    margin-left:  20%;
+    margin-right: 20%;
+    width: 60%;
+    /*width: 100%;*/
+    height: 90%;
+    background-color: white;
+    border-bottom:  5px;
+    border-style: solid;
+    border-bottom-color: gold;
+}
+.portfolio{
+    clear: both;
+    padding-top: 20px;
+    margin-left:  20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    border-bottom:  5px;
+    border-style: solid;
+    border-bottom-color: gold;
+}
+.contacts{
+    clear: both;
+    padding-top: 20px;
+    margin-left:  20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    border-bottom:  5px;
+    border-style: solid;
+    border-bottom-color: gold;
+}
+.aboutParagraph{
+    float: right;
+    width: 80%;
+}
+.headerDivider1 {
+    float: left;
+    border-left:1px solid rgb(35, 69, 142);
+    padding-left: 2px;
+    padding-right: 2px;
+    }
+hr {
+    clear: both;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(169, 170, 172);
+    margin: 1em 0;
+    margin-left:  20px;
+    margin-right: 20px;
+    }   
+#image1{
+    margin-left:  20px;
+}
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+    padding-top: 8%; 
+    font-size: 15px;
+    border-right: 1px solid rgb(35, 69, 142);
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 0px 8px 0px 8px; 
+    text-decoration: none;
+}
+*/
+li a:hover {
+    background-color: rgb(35, 69, 142);
+    color: gold;
+}
+/*
+li:last-child {
+    border: none;
+}
+*/
+input[type=text], select, textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left:  2.5%;
+    margin-right: 2.5%;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgb(35, 69, 142);
+    color: gold;
+    padding: 12px;
+    margin-left:  2.5%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: gold;
+    color: rgb(35, 69, 142);
+    margin-left:  2.5%;
+}
+#nameLabel{
+    margin-left:  2.5%;
+}
+#emailLabel{
+    margin-left:  2.5%;
+}
+#messageLabel{
+    margin-left:  2.5%;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica;
+    /*background-image: url(./images/skyscraper.png);*/
+    background-image: url(subtle_dots.png);
+}

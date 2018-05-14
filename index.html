@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Dwayne M. Hinds Bio</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script type="text/javascript" src="./assets/javascript/script.js"></script>
+    <!-- Single Page Style using javascript to hide subpages-->
+    
+
+</head>
+
+<body onload="myFunction1()"></body>
+
+    <!--h1 class="largeHeader1">Dwayne M. Hinds</h1-->
+    <div class="navbar navbar-expand-sm navbar-dark" style = "background-color: rgb(35, 69, 142);">
+        <a href="#" class ="navbar-brand" onclick="aboutFunction()">Dwayne Hinds</a>
+        <button class = "navbar-toggler" data-toggle = "collapse" data-target = "#navBarMenu">
+            <span class = "navbar-toggler-icon"></span>
+        </button>
+        <div class = "collapse navbar-collapse" id = "navBarMenu">
+        <ul class = "navbar-nav ml-auto">
+            <li class="nav-item navBarItem1"><a href="#" class = "nav-link" onclick="aboutFunction()">About</a></li>
+            <!--li class="headerDivider1"></li-->
+            <li class="nav-item navBarItem2"><a href="#" class = "nav-link" onclick="portFunction()">Portfolio</a></li>
+            <!--li class="headerDivider1"></li-->
+            <li class="nav-item navBarItem3"><a href="#" class = "nav-link" onclick="contactFunction()">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div id="abt">
+        <div class="row">
+            <div class="col-md my-col">
+                <div class="largeHeader2">About Me</div>
+                <hr/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2-md my-col">
+                <img id="image1" src="http://via.placeholder.com/150x150">
+            </div>
+            <div class="col-10-md my-col">
+                Senior architect with 17 years experience in software developement, programming analyst and application design.
+            </div>
+        </div>
+        </div>
+
+    <div id = "port">
+        <div class="row">
+            <div class="col-md my-col">
+                <div class="largeHeader2">Portfolio</div>
+                <hr/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2-lg col-12-sm my-col">
+                <img id="image1" src="http://via.placeholder.com/150x150">
+                <img id="image1" src="http://via.placeholder.com/150x150">
+                <img id="image1" src="http://via.placeholder.com/150x150">
+                <img id="image1" src="http://via.placeholder.com/150x150">
+                <img id="image1" src="http://via.placeholder.com/150x150">
+                <img id="image1" src="http://via.placeholder.com/150x150">
+            </div>
+        </div>
+        </div>
+        <div id="contact">
+        <div class="row">
+                        <div class="col-md my-col">
+                            <div class="largeHeader2">Contacts</div>
+                            <hr/>
+                        </div>
+        </div>
+        <div class="row">
+            <div class="col my-col">
+                    <form action="/action_page.php">
+                        <label id ="nameLabel" for="fname">Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label id ="emailLabel" for="email">Email</label>
+                        <input type="text" id="email" name="emailaddress" placeholder="example@gmail.com">
+                    
+                        <label id ="messageLabel" for="subject">Message</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                    </form>
+            </div>
+        </div>
+        </div>
+        <!--div id="abt" class="about">
+                <div class="largeHeader2">About Me</div>
+                <hr/>
+                <img id ="image1" src="http://via.placeholder.com/150x150">
+                <p class="aboutParagraph">Senior architect with 17 years experience in software developement, programming analyst and application design.</p>
+            </div-->
+        <!--div id="port" class="portfolio">
+                <div class="largeHeader2">Portfolio</div>
+                <hr/>
+                <img id="image1" src="http://via.placeholder.com/150x150">
+                <img id="image1" src="http://via.placeholder.com/150x150">
+                <img id="image1" src="http://via.placeholder.com/150x150">
+                <img id="image1" src="http://via.placeholder.com/150x150">
+                <img id="image1" src="http://via.placeholder.com/150x150">
+                <img id="image1" src="http://via.placeholder.com/150x150">
+                </div-->
+        <!--div id="contact" class="contacts">
+                <div class="largeHeader2">Contact</div>
+                <hr/>
+                        <form action="/action_page.php">
+                            <label id ="nameLabel" for="fname">Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+                            <label id ="emailLabel" for="email">Email</label>
+                            <input type="text" id="email" name="emailaddress" placeholder="example@gmail.com">
+                        
+                            <label id ="messageLabel" for="subject">Message</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        
+                            <input type="submit" value="Submit">
+                        </form>
+            </div-->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
