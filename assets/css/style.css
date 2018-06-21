@@ -116,6 +116,11 @@ hr {
 #image1{
     margin-left:  20px;
 }
+.port-img{
+    width: 100px;
+    height: 100px;
+
+}
 /*ul {
     list-style-type: none;
     margin: 0;
